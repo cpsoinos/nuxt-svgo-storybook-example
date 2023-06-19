@@ -1,5 +1,8 @@
 <template>
-  <button type="button" :class="classes" @click="onClick" :style="style">{{ label }}</button>
+  <button type="button" :class="classes" @click="onClick" :style="style">
+    <SvgoMoonAndStars class="text-xl" />
+    {{ label }}
+  </button>
 </template>
 
 <script>
